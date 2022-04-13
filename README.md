@@ -2,7 +2,7 @@
 
 ## update on 2022.04.13
 
-  will be restart
+  will be restarted
   
 ## update on 2021.06.20
 1. one of two types of recognition methods has been integrated, not perfekt, but one can play.  
