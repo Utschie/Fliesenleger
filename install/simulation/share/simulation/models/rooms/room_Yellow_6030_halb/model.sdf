@@ -1,0 +1,116 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+<model  name='room_Yellow_60*30_halb'>
+   <include><name>1</name><uri>model://Yellow_60*30</uri><pose>0 0.603 0.005 0 0 0</pose></include>
+   <include><name>2</name><uri>model://Yellow_60*30</uri><pose>0 1.206 0.005 0 0 0</pose></include>
+   <include><name>3</name><uri>model://Yellow_60*30</uri><pose>0 1.809 0.005 0 0 0</pose></include>
+   <include><name>4</name><uri>model://Yellow_60*30</uri><pose>0 2.412 0.005 0 0 0</pose></include>
+   <include><name>5</name><uri>model://Yellow_60*30</uri><pose>0 3.015 0.005 0 0 0</pose></include>
+   <include><name>6</name><uri>model://Yellow_60*30</uri><pose>0 3.618 0.005 0 0 0</pose></include>
+   <include><name>7</name><uri>model://Yellow_60*30</uri><pose>0 4.221 0.005 0 0 0</pose></include>
+   <include><name>8</name><uri>model://Yellow_60*30</uri><pose>0 4.824 0.005 0 0 0</pose></include>
+   <include><name>9</name><uri>model://Yellow_60*30</uri><pose>0 5.427 0.005 0 0 0</pose></include>
+   <include><name>10</name><uri>model://Yellow_60*30</uri><pose>0 6.03 0.005 0 0 0</pose></include>
+   <include><name>11</name><uri>model://Yellow_60*30</uri><pose>0 6.633 0.005 0 0 0</pose></include>
+   <include><name>12</name><uri>model://Yellow_60*30</uri><pose>0 7.236 0.005 0 0 0</pose></include>
+   <include><name>13</name><uri>model://Yellow_60*30</uri><pose>0 7.839 0.005 0 0 0</pose></include>
+   <include><name>14</name><uri>model://Yellow_60*30</uri><pose>0 8.442 0.005 0 0 0</pose></include>
+   <include><name>15</name><uri>model://Yellow_60*30</uri><pose>0 9.045 0.005 0 0 0</pose></include>
+   <include><name>16</name><uri>model://Yellow_60*30</uri><pose>0 9.648 0.005 0 0 0</pose></include>
+   <include><name>17</name><uri>model://Yellow_60*30</uri><pose>0 10.251 0.005 0 0 0</pose></include>
+   <include><name>18</name><uri>model://Yellow_60*30</uri><pose>0 10.854 0.005 0 0 0</pose></include>
+   <include><name>19</name><uri>model://Yellow_60*30</uri><pose>0 11.457 0.005 0 0 0</pose></include>
+   <include><name>21</name><uri>model://Yellow_60*30</uri><pose>0.303 0.3015 0.005 0 0 0</pose></include>
+   <include><name>22</name><uri>model://Yellow_60*30</uri><pose>0.303 0.9045 0.005 0 0 0</pose></include>
+   <include><name>23</name><uri>model://Yellow_60*30</uri><pose>0.303 1.5075 0.005 0 0 0</pose></include>
+   <include><name>24</name><uri>model://Yellow_60*30</uri><pose>0.303 2.1105 0.005 0 0 0</pose></include>
+   <include><name>25</name><uri>model://Yellow_60*30</uri><pose>0.303 2.7135 0.005 0 0 0</pose></include>
+   <include><name>26</name><uri>model://Yellow_60*30</uri><pose>0.303 3.3165 0.005 0 0 0</pose></include>
+   <include><name>27</name><uri>model://Yellow_60*30</uri><pose>0.303 3.9195 0.005 0 0 0</pose></include>
+   <include><name>28</name><uri>model://Yellow_60*30</uri><pose>0.303 4.5225 0.005 0 0 0</pose></include>
+   <include><name>29</name><uri>model://Yellow_60*30</uri><pose>0.303 5.1255 0.005 0 0 0</pose></include>
+   <include><name>30</name><uri>model://Yellow_60*30</uri><pose>0.303 5.7285 0.005 0 0 0</pose></include>
+   <include><name>31</name><uri>model://Yellow_60*30</uri><pose>0.303 6.3315 0.005 0 0 0</pose></include>
+   <include><name>32</name><uri>model://Yellow_60*30</uri><pose>0.303 6.9345 0.005 0 0 0</pose></include>
+   <include><name>33</name><uri>model://Yellow_60*30</uri><pose>0.303 7.5375 0.005 0 0 0</pose></include>
+   <include><name>34</name><uri>model://Yellow_60*30</uri><pose>0.303 8.1405 0.005 0 0 0</pose></include>
+   <include><name>35</name><uri>model://Yellow_60*30</uri><pose>0.303 8.7435 0.005 0 0 0</pose></include>
+   <include><name>36</name><uri>model://Yellow_60*30</uri><pose>0.303 9.3465 0.005 0 0 0</pose></include>
+   <include><name>37</name><uri>model://Yellow_60*30</uri><pose>0.303 9.9495 0.005 0 0 0</pose></include>
+   <include><name>38</name><uri>model://Yellow_60*30</uri><pose>0.303 10.5525 0.005 0 0 0</pose></include>
+   <include><name>39</name><uri>model://Yellow_60*30</uri><pose>0.303 11.1555 0.005 0 0 0</pose></include>
+   <include><name>40</name><uri>model://Yellow_60*30</uri><pose>0.606 0.603 0.005 0 0 0</pose></include>
+   <include><name>41</name><uri>model://Yellow_60*30</uri><pose>0.909 0.3015 0.005 0 0 0</pose></include>
+   <include><name>42</name><uri>model://Yellow_60*30</uri><pose>1.212 0.603 0.005 0 0 0</pose></include>
+   <include><name>43</name><uri>model://Yellow_60*30</uri><pose>1.515 0.3015 0.005 0 0 0</pose></include>
+   <include><name>44</name><uri>model://Yellow_60*30</uri><pose>1.818 0.603 0.005 0 0 0</pose></include>
+   <include><name>45</name><uri>model://Yellow_60*30</uri><pose>2.121 0.3015 0.005 0 0 0</pose></include>
+   <include><name>46</name><uri>model://Yellow_60*30</uri><pose>2.424 0.603 0.005 0 0 0</pose></include>
+   <include><name>47</name><uri>model://Yellow_60*30</uri><pose>2.727 0.3015 0.005 0 0 0</pose></include>
+   <include><name>48</name><uri>model://Yellow_60*30</uri><pose>3.03 0.603 0.005 0 0 0</pose></include>
+   <include><name>49</name><uri>model://Yellow_60*30</uri><pose>3.333 0.3015 0.005 0 0 0</pose></include>
+   <include><name>50</name><uri>model://Yellow_60*30</uri><pose>3.636 0.603 0.005 0 0 0</pose></include>
+   <include><name>51</name><uri>model://Yellow_60*30</uri><pose>3.939 0.3015 0.005 0 0 0</pose></include>
+   <include><name>52</name><uri>model://Yellow_60*30</uri><pose>4.242 0.603 0.005 0 0 0</pose></include>
+   <include><name>53</name><uri>model://Yellow_60*30</uri><pose>4.545 0.3015 0.005 0 0 0</pose></include>
+   <include><name>54</name><uri>model://Yellow_60*30</uri><pose>4.848 0.603 0.005 0 0 0</pose></include>
+   <include><name>55</name><uri>model://Yellow_60*30</uri><pose>5.151 0.3015 0.005 0 0 0</pose></include>
+   <include><name>56</name><uri>model://Yellow_60*30</uri><pose>5.454 0.603 0.005 0 0 0</pose></include>
+   <include><name>57</name><uri>model://Yellow_60*30</uri><pose>5.757 0.3015 0.005 0 0 0</pose></include>
+   <include><name>58</name><uri>model://Yellow_60*30</uri><pose>6.06 0.603 0.005 0 0 0</pose></include>
+   <include><name>59</name><uri>model://Yellow_60*30</uri><pose>0.606 11.457 0.005 0 0 0</pose></include>
+   <include><name>60</name><uri>model://Yellow_60*30</uri><pose>0.909 11.1555 0.005 0 0 0</pose></include>
+   <include><name>61</name><uri>model://Yellow_60*30</uri><pose>1.212 11.457 0.005 0 0 0</pose></include>
+   <include><name>62</name><uri>model://Yellow_60*30</uri><pose>1.515 11.1555 0.005 0 0 0</pose></include>
+   <include><name>63</name><uri>model://Yellow_60*30</uri><pose>1.818 11.457 0.005 0 0 0</pose></include>
+   <include><name>64</name><uri>model://Yellow_60*30</uri><pose>2.121 11.1555 0.005 0 0 0</pose></include>
+   <include><name>65</name><uri>model://Yellow_60*30</uri><pose>2.424 11.457 0.005 0 0 0</pose></include>
+   <include><name>66</name><uri>model://Yellow_60*30</uri><pose>2.727 11.1555 0.005 0 0 0</pose></include>
+   <include><name>67</name><uri>model://Yellow_60*30</uri><pose>3.03 11.457 0.005 0 0 0</pose></include>
+   <include><name>68</name><uri>model://Yellow_60*30</uri><pose>3.333 11.1555 0.005 0 0 0</pose></include>
+   <include><name>69</name><uri>model://Yellow_60*30</uri><pose>3.636 11.457 0.005 0 0 0</pose></include>
+   <include><name>70</name><uri>model://Yellow_60*30</uri><pose>3.939 11.1555 0.005 0 0 0</pose></include>
+   <include><name>71</name><uri>model://Yellow_60*30</uri><pose>4.242 11.457 0.005 0 0 0</pose></include>
+   <include><name>72</name><uri>model://Yellow_60*30</uri><pose>4.545 11.1555 0.005 0 0 0</pose></include>
+   <include><name>73</name><uri>model://Yellow_60*30</uri><pose>4.848 11.457 0.005 0 0 0</pose></include>
+   <include><name>74</name><uri>model://Yellow_60*30</uri><pose>5.151 11.1555 0.005 0 0 0</pose></include>
+   <include><name>75</name><uri>model://Yellow_60*30</uri><pose>5.454 11.457 0.005 0 0 0</pose></include>
+   <include><name>76</name><uri>model://Yellow_60*30</uri><pose>5.757 11.1555 0.005 0 0 0</pose></include>
+   <include><name>77</name><uri>model://Yellow_60*30</uri><pose>6.06 11.457 0.005 0 0 0</pose></include>
+   <include><name>78</name><uri>model://Yellow_30*29.85</uri><pose>0 0.15075 0.005 0 0 0</pose></include>
+   <include><name>79</name><uri>model://Yellow_30*29.85</uri><pose>0.606 0.15075 0.005 0 0 0</pose></include>
+   <include><name>80</name><uri>model://Yellow_30*29.85</uri><pose>1.212 0.15075 0.005 0 0 0</pose></include>
+   <include><name>81</name><uri>model://Yellow_30*29.85</uri><pose>1.818 0.15075 0.005 0 0 0</pose></include>
+   <include><name>82</name><uri>model://Yellow_30*29.85</uri><pose>2.424 0.15075 0.005 0 0 0</pose></include>
+   <include><name>83</name><uri>model://Yellow_30*29.85</uri><pose>3.03 0.15075 0.005 0 0 0</pose></include>
+   <include><name>84</name><uri>model://Yellow_30*29.85</uri><pose>3.636 0.15075 0.005 0 0 0</pose></include>
+   <include><name>85</name><uri>model://Yellow_30*29.85</uri><pose>4.242 0.15075 0.005 0 0 0</pose></include>
+   <include><name>86</name><uri>model://Yellow_30*29.85</uri><pose>4.848 0.15075 0.005 0 0 0</pose></include>
+   <include><name>87</name><uri>model://Yellow_30*29.85</uri><pose>5.454 0.15075 0.005 0 0 0</pose></include>
+   <include><name>88</name><uri>model://Yellow_30*29.85</uri><pose>6.06 0.15075 0.005 0 0 0</pose></include>
+   <include><name>89</name><uri>model://Yellow_30*29.85</uri><pose>0.303 11.60775 0.005 0 0 0</pose></include>
+   <include><name>90</name><uri>model://Yellow_30*29.85</uri><pose>0.909 11.60775 0.005 0 0 0</pose></include>
+   <include><name>91</name><uri>model://Yellow_30*29.85</uri><pose>1.515 11.60775 0.005 0 0 0</pose></include>
+   <include><name>92</name><uri>model://Yellow_30*29.85</uri><pose>2.121 11.60775 0.005 0 0 0</pose></include>
+   <include><name>93</name><uri>model://Yellow_30*29.85</uri><pose>2.727 11.60775 0.005 0 0 0</pose></include>
+   <include><name>94</name><uri>model://Yellow_30*29.85</uri><pose>3.333 11.60775 0.005 0 0 0</pose></include>
+   <include><name>95</name><uri>model://Yellow_30*29.85</uri><pose>3.939 11.60775 0.005 0 0 0</pose></include>
+   <include><name>96</name><uri>model://Yellow_30*29.85</uri><pose>4.848 11.60775 0.005 0 0 0</pose></include>
+   <include><name>97</name><uri>model://Yellow_30*29.85</uri><pose>4.545 11.60775 0.005 0 0 0</pose></include>
+   <include><name>98</name><uri>model://Yellow_30*29.85</uri><pose>5.151 11.60775 0.005 0 0 0</pose></include>
+   <include><name>99</name><uri>model://Yellow_30*29.85</uri><pose>5.757 11.60775 0.005 0 0 0</pose></include>
+   
+   
+   <include><name>100</name><uri>model://wall_03</uri><pose>3.03 -0.1015 0.005 0 0 0</pose></include>
+   <include><name>101</name><uri>model://wall_03</uri><pose>3.03 11.86 0.005 0 0 0</pose></include>
+   <include><name>102</name><uri>model://wall_04</uri><pose>-0.253 5.87925 0.005 0 0 0</pose></include>
+   <include><name>103</name><uri>model://wall_04</uri><pose>6.313 5.87925 0.005 0 0 0</pose></include>
+    
+
+    
+    
+    
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+</model>
+</sdf>

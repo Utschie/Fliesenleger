@@ -1,0 +1,309 @@
+[0.000000] (-) TimerEvent: {}
+[0.000090] (joy_control) JobQueued: {'identifier': 'joy_control', 'dependencies': OrderedDict()}
+[0.000151] (simulation) JobQueued: {'identifier': 'simulation', 'dependencies': OrderedDict()}
+[0.000166] (joy_control) JobStarted: {'identifier': 'joy_control'}
+[0.010169] (simulation) JobStarted: {'identifier': 'simulation'}
+[0.099539] (-) TimerEvent: {}
+[0.167549] (simulation) JobProgress: {'identifier': 'simulation', 'progress': 'cmake'}
+[0.167603] (simulation) Command: {'cmd': ['/usr/bin/cmake', '/home/jsy/Fliesenleger/simulation', '-DCMAKE_INSTALL_PREFIX=/home/jsy/Fliesenleger/install/simulation'], 'cwd': '/home/jsy/Fliesenleger/build/simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'jsy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1478'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/jsy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1351'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bc3af82b4b7e2d92d0718f3660e9664f'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jsy/ros2_foxy/ros2-linux'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jsy'), ('JOURNAL_STREAM', '8:48353'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/jsy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jsy/.local/bin:/home/jsy/.local/lib/python3.8/site-packages'), ('SESSION_MANAGER', 'local/jsy-MEG-Z490-Infinite-X-MS-B916:@/tmp/.ICE-unix/1555,unix/jsy-MEG-Z490-Infinite-X-MS-B916:/tmp/.ICE-unix/1555'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', 'e5ac5b3bb1e04acc8d99bf5720bd39f1'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c891f980_08c5_4dce_ae41_1cc447ea67e4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ZEITGEIST_DATA_PATH', '/home/jsy/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/jsy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.262'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jsy'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jsy/Fliesenleger/build/simulation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bc3af82b4b7e2d92d0718f3660e9664f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/opt/apps/com.qq.weixin.deepin/entries'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.171506] (joy_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/joy_control', 'build', '--build-base', '/home/jsy/Fliesenleger/build/joy_control/build', 'install', '--prefix', '/home/jsy/Fliesenleger/install/joy_control', '--record', '/home/jsy/Fliesenleger/build/joy_control/install.log', '--single-version-externally-managed'], 'cwd': '/home/jsy/Fliesenleger/joy_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en_US:en', 'USER': 'jsy', 'LC_TIME': 'de_DE.UTF-8', 'SSH_AGENT_PID': '1478', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'QT4_IM_MODULE': 'fcitx', 'HOME': '/home/jsy', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '1351', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=bc3af82b4b7e2d92d0718f3660e9664f', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/jsy/ros2_foxy/ros2-linux', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'jsy', 'JOURNAL_STREAM': '8:48353', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/jsy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jsy/.local/bin:/home/jsy/.local/lib/python3.8/site-packages', 'SESSION_MANAGER': 'local/jsy-MEG-Z490-Infinite-X-MS-B916:@/tmp/.ICE-unix/1555,unix/jsy-MEG-Z490-Infinite-X-MS-B916:/tmp/.ICE-unix/1555', 'GDM_LANG': 'zh_CN', 'INVOCATION_ID': 'e5ac5b3bb1e04acc8d99bf5720bd39f1', 'PAPERSIZE': 'a4', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c891f980_08c5_4dce_ae41_1cc447ea67e4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'ZEITGEIST_DATA_PATH': '/home/jsy/.local/share/zeitgeist', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/jsy/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.262', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/jsy', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/jsy/Fliesenleger/build/joy_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=bc3af82b4b7e2d92d0718f3660e9664f', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/opt/apps/com.qq.weixin.deepin/entries', 'PYTHONPATH': '/home/jsy/Fliesenleger/install/joy_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.199639] (-) TimerEvent: {}
+[0.213421] (simulation) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.280034] (simulation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 8.4.0\n'}
+[0.284679] (simulation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299736] (-) TimerEvent: {}
+[0.320213] (joy_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.320451] (joy_control) StdoutLine: {'line': b'creating ../build/joy_control/joy_control.egg-info\n'}
+[0.320547] (joy_control) StdoutLine: {'line': b'writing ../build/joy_control/joy_control.egg-info/PKG-INFO\n'}
+[0.320651] (joy_control) StdoutLine: {'line': b'writing dependency_links to ../build/joy_control/joy_control.egg-info/dependency_links.txt\n'}
+[0.320901] (joy_control) StdoutLine: {'line': b'writing entry points to ../build/joy_control/joy_control.egg-info/entry_points.txt\n'}
+[0.321029] (joy_control) StdoutLine: {'line': b'writing requirements to ../build/joy_control/joy_control.egg-info/requires.txt\n'}
+[0.321080] (joy_control) StdoutLine: {'line': b'writing top-level names to ../build/joy_control/joy_control.egg-info/top_level.txt\n'}
+[0.322229] (joy_control) StdoutLine: {'line': b"writing manifest file '../build/joy_control/joy_control.egg-info/SOURCES.txt'\n"}
+[0.325044] (simulation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.325979] (simulation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.345806] (joy_control) StdoutLine: {'line': b"reading manifest file '../build/joy_control/joy_control.egg-info/SOURCES.txt'\n"}
+[0.346241] (joy_control) StdoutLine: {'line': b"writing manifest file '../build/joy_control/joy_control.egg-info/SOURCES.txt'\n"}
+[0.346376] (joy_control) StdoutLine: {'line': b'running build\n'}
+[0.346498] (joy_control) StdoutLine: {'line': b'running build_py\n'}
+[0.346552] (joy_control) StdoutLine: {'line': b'creating /home/jsy/Fliesenleger/build/joy_control/build\n'}
+[0.346694] (joy_control) StdoutLine: {'line': b'creating /home/jsy/Fliesenleger/build/joy_control/build/lib\n'}
+[0.346821] (joy_control) StdoutLine: {'line': b'creating /home/jsy/Fliesenleger/build/joy_control/build/lib/joy_control\n'}
+[0.346895] (joy_control) StdoutLine: {'line': b'copying joy_control/Recognizer.py -> /home/jsy/Fliesenleger/build/joy_control/build/lib/joy_control\n'}
+[0.346943] (joy_control) StdoutLine: {'line': b'copying joy_control/Tile_recognition.py -> /home/jsy/Fliesenleger/build/joy_control/build/lib/joy_control\n'}
+[0.346989] (joy_control) StdoutLine: {'line': b'copying joy_control/ImgSubscriber.py -> /home/jsy/Fliesenleger/build/joy_control/build/lib/joy_control\n'}
+[0.347032] (joy_control) StdoutLine: {'line': b'copying joy_control/quer_move.py -> /home/jsy/Fliesenleger/build/joy_control/build/lib/joy_control\n'}
+[0.347075] (joy_control) StdoutLine: {'line': b'copying joy_control/__init__.py -> /home/jsy/Fliesenleger/build/joy_control/build/lib/joy_control\n'}
+[0.347117] (joy_control) StdoutLine: {'line': b'copying joy_control/brain.py -> /home/jsy/Fliesenleger/build/joy_control/build/lib/joy_control\n'}
+[0.347159] (joy_control) StdoutLine: {'line': b'running install\n'}
+[0.347284] (joy_control) StdoutLine: {'line': b'running install_lib\n'}
+[0.348014] (joy_control) StdoutLine: {'line': b'creating /home/jsy/Fliesenleger/install/joy_control/lib/python3.8/site-packages/joy_control\n'}
+[0.348100] (joy_control) StdoutLine: {'line': b'copying /home/jsy/Fliesenleger/build/joy_control/build/lib/joy_control/Recognizer.py -> /home/jsy/Fliesenleger/install/joy_control/lib/python3.8/site-packages/joy_control\n'}
+[0.348182] (joy_control) StdoutLine: {'line': b'copying /home/jsy/Fliesenleger/build/joy_control/build/lib/joy_control/Tile_recognition.py -> /home/jsy/Fliesenleger/install/joy_control/lib/python3.8/site-packages/joy_control\n'}
+[0.348230] (joy_control) StdoutLine: {'line': b'copying /home/jsy/Fliesenleger/build/joy_control/build/lib/joy_control/ImgSubscriber.py -> /home/jsy/Fliesenleger/install/joy_control/lib/python3.8/site-packages/joy_control\n'}
+[0.348288] (joy_control) StdoutLine: {'line': b'copying /home/jsy/Fliesenleger/build/joy_control/build/lib/joy_control/quer_move.py -> /home/jsy/Fliesenleger/install/joy_control/lib/python3.8/site-packages/joy_control\n'}
+[0.348351] (joy_control) StdoutLine: {'line': b'copying /home/jsy/Fliesenleger/build/joy_control/build/lib/joy_control/__init__.py -> /home/jsy/Fliesenleger/install/joy_control/lib/python3.8/site-packages/joy_control\n'}
+[0.348395] (joy_control) StdoutLine: {'line': b'copying /home/jsy/Fliesenleger/build/joy_control/build/lib/joy_control/brain.py -> /home/jsy/Fliesenleger/install/joy_control/lib/python3.8/site-packages/joy_control\n'}
+[0.348610] (joy_control) StdoutLine: {'line': b'byte-compiling /home/jsy/Fliesenleger/install/joy_control/lib/python3.8/site-packages/joy_control/Recognizer.py to Recognizer.cpython-38.pyc\n'}
+[0.350778] (joy_control) StdoutLine: {'line': b'byte-compiling /home/jsy/Fliesenleger/install/joy_control/lib/python3.8/site-packages/joy_control/Tile_recognition.py to Tile_recognition.cpython-38.pyc\n'}
+[0.351325] (joy_control) StdoutLine: {'line': b'byte-compiling /home/jsy/Fliesenleger/install/joy_control/lib/python3.8/site-packages/joy_control/ImgSubscriber.py to ImgSubscriber.cpython-38.pyc\n'}
+[0.351510] (joy_control) StdoutLine: {'line': b'byte-compiling /home/jsy/Fliesenleger/install/joy_control/lib/python3.8/site-packages/joy_control/quer_move.py to quer_move.cpython-38.pyc\n'}
+[0.351730] (joy_control) StdoutLine: {'line': b'byte-compiling /home/jsy/Fliesenleger/install/joy_control/lib/python3.8/site-packages/joy_control/__init__.py to __init__.cpython-38.pyc\n'}
+[0.351813] (joy_control) StdoutLine: {'line': b'byte-compiling /home/jsy/Fliesenleger/install/joy_control/lib/python3.8/site-packages/joy_control/brain.py to brain.cpython-38.pyc\n'}
+[0.352455] (joy_control) StdoutLine: {'line': b'running install_data\n'}
+[0.352906] (joy_control) StdoutLine: {'line': b'creating /home/jsy/Fliesenleger/install/joy_control/share/ament_index\n'}
+[0.352996] (joy_control) StdoutLine: {'line': b'creating /home/jsy/Fliesenleger/install/joy_control/share/ament_index/resource_index\n'}
+[0.353058] (joy_control) StdoutLine: {'line': b'creating /home/jsy/Fliesenleger/install/joy_control/share/ament_index/resource_index/packages\n'}
+[0.353127] (joy_control) StdoutLine: {'line': b'copying resource/joy_control -> /home/jsy/Fliesenleger/install/joy_control/share/ament_index/resource_index/packages\n'}
+[0.353187] (joy_control) StdoutLine: {'line': b'copying package.xml -> /home/jsy/Fliesenleger/install/joy_control/share/joy_control\n'}
+[0.353243] (joy_control) StdoutLine: {'line': b'creating /home/jsy/Fliesenleger/install/joy_control/share/joy_control/launch\n'}
+[0.353293] (joy_control) StdoutLine: {'line': b'copying ./launch/joy_control.launch.py -> /home/jsy/Fliesenleger/install/joy_control/share/joy_control/launch\n'}
+[0.353360] (joy_control) StdoutLine: {'line': b'copying ./joy_control/M_9037*7228.npy -> /home/jsy/Fliesenleger/install/joy_control/share/joy_control\n'}
+[0.353403] (joy_control) StdoutLine: {'line': b'copying ./joy_control/M_15061*12046.npy -> /home/jsy/Fliesenleger/install/joy_control/share/joy_control\n'}
+[0.353446] (joy_control) StdoutLine: {'line': b'copying ./joy_control/M_30121*24091.npy -> /home/jsy/Fliesenleger/install/joy_control/share/joy_control\n'}
+[0.353488] (joy_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.354455] (joy_control) StdoutLine: {'line': b'Copying ../build/joy_control/joy_control.egg-info to /home/jsy/Fliesenleger/install/joy_control/lib/python3.8/site-packages/joy_control-0.0.0-py3.8.egg-info\n'}
+[0.354915] (joy_control) StdoutLine: {'line': b'running install_scripts\n'}
+[0.365860] (simulation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.366675] (joy_control) StdoutLine: {'line': b'Installing brain script to /home/jsy/Fliesenleger/install/joy_control/lib/joy_control\n'}
+[0.366815] (joy_control) StdoutLine: {'line': b'Installing quer_move script to /home/jsy/Fliesenleger/install/joy_control/lib/joy_control\n'}
+[0.366932] (joy_control) StdoutLine: {'line': b"writing list of installed files to '/home/jsy/Fliesenleger/build/joy_control/install.log'\n"}
+[0.373572] (simulation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.373890] (simulation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.375812] (simulation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.378518] (joy_control) CommandEnded: {'returncode': 0}
+[0.387139] (joy_control) JobEnded: {'identifier': 'joy_control', 'rc': 0}
+[0.399838] (-) TimerEvent: {}
+[0.421941] (simulation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.422614] (simulation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.469071] (simulation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.477221] (simulation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.477585] (simulation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.479014] (simulation) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.496139] (simulation) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.496220] (simulation) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.499930] (-) TimerEvent: {}
+[0.600116] (-) TimerEvent: {}
+[0.638093] (simulation) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[0.672114] (simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.676427] (simulation) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.700209] (-) TimerEvent: {}
+[0.718023] (simulation) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.735591] (simulation) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.784912] (simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800301] (-) TimerEvent: {}
+[0.824671] (simulation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.825822] (simulation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.827056] (simulation) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.867290] (simulation) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.867541] (simulation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900389] (-) TimerEvent: {}
+[0.909909] (simulation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.910143] (simulation) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.942960] (simulation) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.943146] (simulation) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.982440] (simulation) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.983139] (simulation) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000477] (-) TimerEvent: {}
+[1.093792] (simulation) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[1.094862] (simulation) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.100569] (-) TimerEvent: {}
+[1.102414] (simulation) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[1.161668] (simulation) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[1.189003] (simulation) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[1.200666] (-) TimerEvent: {}
+[1.216532] (simulation) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[1.232093] (simulation) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.248545] (simulation) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.261941] (simulation) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[1.264962] (simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[1.269710] (simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.271221] (simulation) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.271535] (simulation) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.274009] (simulation) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.281234] (simulation) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.299468] (simulation) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.300771] (-) TimerEvent: {}
+[1.304151] (simulation) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.310790] (simulation) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.314337] (simulation) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.314406] (simulation) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.318023] (simulation) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.318161] (simulation) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.321624] (simulation) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.321790] (simulation) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.325197] (simulation) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.325350] (simulation) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.329242] (simulation) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.329421] (simulation) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.332954] (simulation) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.400867] (-) TimerEvent: {}
+[1.404875] (simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[1.406054] (simulation) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.0\n'}
+[1.406352] (simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.416860] (simulation) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[1.423440] (simulation) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.425833] (simulation) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.434100] (simulation) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[1.453592] (simulation) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.456717] (simulation) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.464094] (simulation) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[1.482553] (simulation) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.483637] (simulation) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[1.484000] (simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.494979] (simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[1.497662] (simulation) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.500932] (-) TimerEvent: {}
+[1.505128] (simulation) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[1.525071] (simulation) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[1.526206] (simulation) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.13.2\n'}
+[1.526509] (simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.526753] (simulation) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.527234] (simulation) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.528327] (simulation) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.532160] (simulation) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.533224] (simulation) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.13.2\n'}
+[1.533580] (simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.533792] (simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[1.535595] (simulation) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.3.0\n'}
+[1.535848] (simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.571878] (simulation) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[1.576247] (simulation) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.583541] (simulation) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[1.601026] (-) TimerEvent: {}
+[1.601979] (simulation) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.605055] (simulation) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.612237] (simulation) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[1.630956] (simulation) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.631266] (simulation) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.13.2\n'}
+[1.631717] (simulation) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[1.632781] (simulation) StdoutLine: {'line': b'-- Gazebo version: 11.5\n'}
+[1.638122] (simulation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.675813] (simulation) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.677430] (simulation) StdoutLine: {'line': b'-- Generating done\n'}
+[1.678538] (simulation) StdoutLine: {'line': b'-- Build files have been written to: /home/jsy/Fliesenleger/build/simulation\n'}
+[1.684080] (simulation) CommandEnded: {'returncode': 0}
+[1.686191] (simulation) JobProgress: {'identifier': 'simulation', 'progress': 'build'}
+[1.686221] (simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jsy/Fliesenleger/build/simulation', '--', '-j20', '-l20'], 'cwd': '/home/jsy/Fliesenleger/build/simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'jsy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1478'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/jsy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1351'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bc3af82b4b7e2d92d0718f3660e9664f'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jsy/ros2_foxy/ros2-linux'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jsy'), ('JOURNAL_STREAM', '8:48353'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/jsy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jsy/.local/bin:/home/jsy/.local/lib/python3.8/site-packages'), ('SESSION_MANAGER', 'local/jsy-MEG-Z490-Infinite-X-MS-B916:@/tmp/.ICE-unix/1555,unix/jsy-MEG-Z490-Infinite-X-MS-B916:/tmp/.ICE-unix/1555'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', 'e5ac5b3bb1e04acc8d99bf5720bd39f1'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c891f980_08c5_4dce_ae41_1cc447ea67e4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ZEITGEIST_DATA_PATH', '/home/jsy/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/jsy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.262'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jsy'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jsy/Fliesenleger/build/simulation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bc3af82b4b7e2d92d0718f3660e9664f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/opt/apps/com.qq.weixin.deepin/entries'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.701097] (-) TimerEvent: {}
+[1.709647] (simulation) CommandEnded: {'returncode': 0}
+[1.721358] (simulation) JobProgress: {'identifier': 'simulation', 'progress': 'install'}
+[1.727073] (simulation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jsy/Fliesenleger/build/simulation'], 'cwd': '/home/jsy/Fliesenleger/build/simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'jsy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1478'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/jsy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1351'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bc3af82b4b7e2d92d0718f3660e9664f'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jsy/ros2_foxy/ros2-linux'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jsy'), ('JOURNAL_STREAM', '8:48353'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/jsy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jsy/.local/bin:/home/jsy/.local/lib/python3.8/site-packages'), ('SESSION_MANAGER', 'local/jsy-MEG-Z490-Infinite-X-MS-B916:@/tmp/.ICE-unix/1555,unix/jsy-MEG-Z490-Infinite-X-MS-B916:/tmp/.ICE-unix/1555'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', 'e5ac5b3bb1e04acc8d99bf5720bd39f1'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c891f980_08c5_4dce_ae41_1cc447ea67e4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ZEITGEIST_DATA_PATH', '/home/jsy/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/jsy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.262'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jsy'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jsy/Fliesenleger/build/simulation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bc3af82b4b7e2d92d0718f3660e9664f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/opt/apps/com.qq.weixin.deepin/entries'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.731543] (simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.731651] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/launch\n'}
+[1.731715] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/launch/world.launch.py\n'}
+[1.731763] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/launch/teleop_twist_joy_node.yaml\n'}
+[1.731884] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models\n'}
+[1.731966] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/nested_model\n'}
+[1.732030] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/nested_model/model.config\n'}
+[1.732088] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/nested_model/model.sdf\n'}
+[1.732133] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/description\n'}
+[1.732176] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/description/meshes\n'}
+[1.732219] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/description/meshes/kinect.dae\n'}
+[1.732509] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/description/materials\n'}
+[1.732555] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/description/materials/textures\n'}
+[1.732625] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/description/materials/textures/kinect.png\n'}
+[1.732680] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/3D_Lidar_270\n'}
+[1.732799] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/3D_Lidar_270/model.config\n'}
+[1.732864] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/3D_Lidar_270/model.sdf\n'}
+[1.732927] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/imu\n'}
+[1.732982] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/imu/.gitkeep\n'}
+[1.733057] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/imu/model.config\n'}
+[1.733100] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/imu/model.sdf\n'}
+[1.733141] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/experi_model\n'}
+[1.733183] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/experi_model/model.config\n'}
+[1.733225] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/experi_model/model.sdf\n'}
+[1.733273] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/zed_mini\n'}
+[1.733316] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/zed_mini/meshes\n'}
+[1.733358] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/zed_mini/meshes/kinect.dae\n'}
+[1.734583] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/zed_mini/materials\n'}
+[1.734651] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/zed_mini/materials/textures\n'}
+[1.734696] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/zed_mini/materials/textures/kinect.png\n'}
+[1.734771] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/zed_mini/model.config\n'}
+[1.734830] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/zed_mini/model.sdf\n'}
+[1.734898] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/move_wheel_box\n'}
+[1.734954] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/move_wheel_box/model.config\n'}
+[1.735011] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/move_wheel_box/model.sdf\n'}
+[1.735074] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/example_model\n'}
+[1.735139] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/example_model/model.config\n'}
+[1.735203] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/example_model/model.sdf\n'}
+[1.735259] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen\n'}
+[1.735322] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_30*29.85\n'}
+[1.735386] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_30*29.85/model.config\n'}
+[1.735441] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_30*29.85/model.sdf\n'}
+[1.735503] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Brown_60*60\n'}
+[1.735559] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Brown_60*60/model.config\n'}
+[1.735618] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Brown_60*60/model.sdf\n'}
+[1.735660] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Brown_60*30\n'}
+[1.735703] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Brown_60*30/model.config\n'}
+[1.735745] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Brown_60*30/model.sdf\n'}
+[1.735786] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_60*60\n'}
+[1.735828] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_60*60/model.config\n'}
+[1.735869] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_60*60/model.sdf\n'}
+[1.735911] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/materials\n'}
+[1.735952] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/materials/brown.jpg\n'}
+[1.736014] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/materials/textures.material\n'}
+[1.736059] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/materials/yellow.material\n'}
+[1.736114] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/materials/brown.material\n'}
+[1.736169] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/materials/yellow.jpg\n'}
+[1.736736] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_60*30_noshadow_notexture\n'}
+[1.736811] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_60*30_noshadow_notexture/model.config\n'}
+[1.736869] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_60*30_noshadow_notexture/model.sdf\n'}
+[1.736927] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_30*29.85_noshadow_notexture\n'}
+[1.736988] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_30*29.85_noshadow_notexture/model.config\n'}
+[1.737057] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_30*29.85_noshadow_notexture/model.sdf\n'}
+[1.737113] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_60*60_noshadow_notexture\n'}
+[1.737177] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_60*60_noshadow_notexture/model.config\n'}
+[1.737241] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_60*60_noshadow_notexture/model.sdf\n'}
+[1.737304] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_60*30\n'}
+[1.737361] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_60*30/model.config\n'}
+[1.737425] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/Fliesen/Yellow_60*30/model.sdf\n'}
+[1.737467] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms\n'}
+[1.737509] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/wall_02\n'}
+[1.737551] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/wall_02/model.config\n'}
+[1.737614] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/wall_02/model.sdf\n'}
+[1.737667] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/wall_04\n'}
+[1.737708] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/wall_04/model.config\n'}
+[1.737752] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/wall_04/model.sdf\n'}
+[1.737800] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/room_Brown_60*60_kreuz\n'}
+[1.737861] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/room_Brown_60*60_kreuz/model.config\n'}
+[1.737916] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/room_Brown_60*60_kreuz/model.sdf\n'}
+[1.737960] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/room_Yellow_60*30_halb\n'}
+[1.738024] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/room_Yellow_60*30_halb/model.config\n'}
+[1.738085] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/room_Yellow_60*30_halb/model.sdf\n'}
+[1.738139] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/room_Yellow_60*60_noshadow_notexture_kreuz\n'}
+[1.738193] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/room_Yellow_60*60_noshadow_notexture_kreuz/model.config\n'}
+[1.738256] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/room_Yellow_60*60_noshadow_notexture_kreuz/model.sdf\n'}
+[1.738310] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/room_Yellow_60*30_noshadow_notexture_halb\n'}
+[1.738353] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/room_Yellow_60*30_noshadow_notexture_halb/model.config\n'}
+[1.738395] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/room_Yellow_60*30_noshadow_notexture_halb/model.sdf\n'}
+[1.738438] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/room_Yellow_60*60_kreuz\n'}
+[1.738496] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/room_Yellow_60*60_kreuz/model.config\n'}
+[1.738560] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/room_Yellow_60*60_kreuz/model.sdf\n'}
+[1.738615] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/wall_01\n'}
+[1.738668] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/wall_01/model.config\n'}
+[1.738710] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/wall_01/model.sdf\n'}
+[1.738772] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/wall_03\n'}
+[1.738829] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/wall_03/model.config\n'}
+[1.738872] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/models/rooms/wall_03/model.sdf\n'}
+[1.738931] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/worlds\n'}
+[1.738974] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/worlds/world_1.world\n'}
+[1.739028] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/worlds/world_2.world\n'}
+[1.739071] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/ament_index/resource_index/package_run_dependencies/simulation\n'}
+[1.739125] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/ament_index/resource_index/parent_prefix_path/simulation\n'}
+[1.739179] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/environment/ament_prefix_path.sh\n'}
+[1.739235] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/environment/ament_prefix_path.dsv\n'}
+[1.739278] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/environment/path.sh\n'}
+[1.739329] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/environment/path.dsv\n'}
+[1.739380] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/local_setup.bash\n'}
+[1.739437] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/local_setup.sh\n'}
+[1.739496] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/local_setup.zsh\n'}
+[1.739558] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/local_setup.dsv\n'}
+[1.739617] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/package.dsv\n'}
+[1.739700] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/ament_index/resource_index/packages/simulation\n'}
+[1.739780] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/cmake/simulationConfig.cmake\n'}
+[1.739832] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/cmake/simulationConfig-version.cmake\n'}
+[1.739888] (simulation) StdoutLine: {'line': b'-- Installing: /home/jsy/Fliesenleger/install/simulation/share/simulation/package.xml\n'}
+[1.740804] (simulation) CommandEnded: {'returncode': 0}
+[1.761236] (simulation) JobEnded: {'identifier': 'simulation', 'rc': 0}
+[1.761853] (-) EventReactorShutdown: {}

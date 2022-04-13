@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<sdf version='1.7'>
+  <world name="empty">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so">
+      <update_rate>1.0</update_rate>
+    </plugin>
+  </world>
+</sdf>

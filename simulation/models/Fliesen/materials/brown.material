@@ -1,0 +1,13 @@
+material FlieseTexture
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ./brown.jpg
+      }
+    }
+  }
+}

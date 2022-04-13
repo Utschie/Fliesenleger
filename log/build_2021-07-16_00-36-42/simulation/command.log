@@ -1,0 +1,4 @@
+Invoking command in '/home/jsy/Fliesenleger/build/simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsy/Fliesenleger/install/joy_control:/opt/ros/foxy /usr/bin/cmake --build /home/jsy/Fliesenleger/build/simulation -- -j20 -l20
+Invoked command in '/home/jsy/Fliesenleger/build/simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsy/Fliesenleger/install/joy_control:/opt/ros/foxy /usr/bin/cmake --build /home/jsy/Fliesenleger/build/simulation -- -j20 -l20
+Invoking command in '/home/jsy/Fliesenleger/build/simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsy/Fliesenleger/install/joy_control:/opt/ros/foxy /usr/bin/cmake --install /home/jsy/Fliesenleger/build/simulation
+Invoked command in '/home/jsy/Fliesenleger/build/simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsy/Fliesenleger/install/joy_control:/opt/ros/foxy /usr/bin/cmake --install /home/jsy/Fliesenleger/build/simulation

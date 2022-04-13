@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+<model  name='experi_model'>
+   <include>
+      <uri>model://nested_model</uri>
+      <pose>2.5 1 0 0 0 3.665191</pose>
+    </include>
+    <include>
+      <pose>0 0 0 0 0 0</pose>
+      <uri>model://room_Yellow_60*60_noshadow_notexture_kreuz</uri>
+    </include>
+   
+   
+</model>
+</sdf>

@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+    <model name='zed_mini'>
+      <link name='camera_link'>
+        <inertial>
+          <mass>0.1</mass>
+        </inertial>
+        
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.073 0.276 0.072</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>../description/meshes/kinect.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <sensor name='camera1' type='multicamera'>
+          <pose>0 0 0 0 -0 0</pose>
+          <update_rate>15</update_rate>
+          <visualize>1</visualize>
+          <camera name='left'>
+            <pose relative_to='camera1'>0 0.0315 0 0 -0 0</pose>
+            <horizontal_fov>1.373574</horizontal_fov>
+            <image>
+              <width>960</width>
+              <height>640</height>
+              <format>R8G8B8</format>
+            </image>
+            <clip>
+              <near>0.1</near>
+              <far>15</far>
+            </clip>
+            <noise>
+              <type>gaussian</type>
+              <mean>0</mean>
+              <stddev>0.007</stddev>
+            </noise>
+            <!--distortion>
+              <k1>0</k1>
+              <k2>0</k2>
+              <p1>0</p1>
+              <p2>0</p2>
+              <k3>0</k3>
+              <center>0. 0.</center>
+            </distortion-->
+          </camera>
+          <!--camera name='right'>
+            <pose relative_to='camera1'>0 -0.0315 0 0 -0 0</pose>
+            <horizontal_fov>1.373574</horizontal_fov>
+            <image>
+              <width>4200</width>
+              <height>2800</height>
+              <format>R8G8B8</format>
+            </image>
+            <clip>
+              <near>0.1</near>
+              <far>15</far>
+            </clip>
+            <noise>
+              <type>gaussian</type>
+              <mean>0</mean>
+              <stddev>0.007</stddev>
+            </noise>
+            <distortion>
+              <k1>0</k1>
+              <k2>0</k2>
+              <p1>0</p1>
+              <p2>0</p2>
+              <k3>0</k3>
+              <center>0. 0.</center>
+            </distortion>
+          </camera-->
+          <plugin name='camera_controller' filename='libgazebo_ros_camera.so'>
+            <ros>
+              <namespace>demo_cam</namespace>
+              <remapping>mycamera/left/image_raw:=mycamera/left/image_demo</remapping>
+              <!--remapping>mycamera/right/image_raw:=mycamera/right/image_demo</remapping-->
+              <remapping>mycamera/left/camera_info:=mycamera/left/camera_info_demo</remapping>
+              <!--remapping>mycamera/right/camera_info:=mycamera/right/camera_info_demo</remapping-->
+            </ros>
+            <camera_name>mycamera</camera_name>
+          </plugin>
+        </sensor>
+      </link>
+    </model>
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
+</sdf>

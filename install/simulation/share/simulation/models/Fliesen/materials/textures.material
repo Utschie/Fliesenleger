@@ -1,0 +1,27 @@
+material Fliese/Brown
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ./brown.jpg
+      }
+    }
+  }
+}
+
+material Fliese/Yellow
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ./yellow.jpg
+      }
+    }
+  }
+}

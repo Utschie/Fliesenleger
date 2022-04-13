@@ -1,0 +1,4 @@
+[console_scripts]
+brain = joy_control.brain:main
+quer_move = joy_control.quer_move:main
+
