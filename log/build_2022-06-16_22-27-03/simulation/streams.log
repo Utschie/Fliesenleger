@@ -1,0 +1,6 @@
+[0.179s] Invoking command in '/home/jsy/Dropbox/Fliesenleger/build/simulation': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/jsy/Dropbox/Fliesenleger/build/simulation -- -j20 -l20
+[0.190s] [0mCMake Error: The current CMakeCache.txt directory /home/jsy/Dropbox/Fliesenleger/build/simulation/CMakeCache.txt is different than the directory /home/jsy/Fliesenleger/build/simulation where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.199s] [0mCMake Error: The source directory "/home/jsy/Fliesenleger/simulation" does not exist.
+[0.199s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.200s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.202s] Invoked command in '/home/jsy/Dropbox/Fliesenleger/build/simulation' returned '2': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/jsy/Dropbox/Fliesenleger/build/simulation -- -j20 -l20

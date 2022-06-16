@@ -1,0 +1,2 @@
+Invoking command in '/home/jsy/Dropbox/Fliesenleger/build/simulation': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/jsy/Dropbox/Fliesenleger/build/simulation -- -j20 -l20
+Invoked command in '/home/jsy/Dropbox/Fliesenleger/build/simulation' returned '2': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/jsy/Dropbox/Fliesenleger/build/simulation -- -j20 -l20
