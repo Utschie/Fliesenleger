@@ -11,7 +11,7 @@ sudo ubuntu-drivers autoinstall
 reboot
 ```
 
-3. Install gazebo_ros,ros-rolling-joy,Numpy,Opencv
+3. Install gazebo_ros, ros-rolling-joy, Numpy and Opencv
 
 ```
 sudo apt install ros-rolling-gazebo-ros-pkgs
