@@ -49,8 +49,5 @@ rviz2
 Add a Image visualization, set the Topic to '/demo_cam/mycamera/left/image_demo' or '/demo_cam/mycamera/right/image_demo'
 
 9. Use your Xbox joystick and follow the prompts on the screen.
-<video id="video" controls="" preload="none" poster="封面">
-      <source id="webm" src="https://github.com/Utschie/Fliesenleger/blob/master/Video.webm" type="video/webm">
-</videos>
-
+![](https://github.com/Utschie/Fliesenleger/blob/master/video.gif)
 

@@ -1,12 +1,15 @@
+## update on 2022.06.18
+  new introduction
+## update on 2022.04.13
+
+  will be restarted
 ## update in 2021.06.02
 under the file 'Fliesenleger' open a terminal,use the order
 ```
 ros2 launch teleop_twist_joy teleop-launch.py joy_config:='xbox' config_filepath:=./control/xbox_controler/teleop_twist_joy_node.yaml
 ```
 then you can use your xbox joystick control your fliesenleger
-## update on 2022.04.13
 
-  will be restarted
   
 ## update on 2021.06.20
 1. one of two types of recognition methods has been integrated, not perfekt, but one can play.  
