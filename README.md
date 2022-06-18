@@ -38,6 +38,7 @@ If the 'world' argument not modified, the default is world_1
 rviz2
 ```
 Add a Image visualization, set the Topic to '/demo_cam/mycamera/left/image_demo' or '/demo_cam/mycamera/right/image_demo'
+
 9. Use your Xbox joystick and follow the prompts on the screen.
 
 
