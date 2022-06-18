@@ -1,4 +1,5 @@
 # Fliesenleger
+![](https://github.com/Utschie/Fliesenleger/blob/master/rosgraph.png)
 ## Install the environment and dependencies
 Install ros2 Rolling <https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debians.html>
 Install Gazebo 11 <https://classic.gazebosim.org/tutorials?tut=install_ubuntu#Defaultinstallation:one-liner>
@@ -40,6 +41,8 @@ rviz2
 Add a Image visualization, set the Topic to '/demo_cam/mycamera/left/image_demo' or '/demo_cam/mycamera/right/image_demo'
 
 Use your Xbox joystick and follow the prompts on the screen.
-
+<video id="video" controls="" preload="none" poster="">
+      <source id="webm" src="https://github.com/Utschie/Fliesenleger/blob/master/Video.webm" type="video/webm">
+</videos>
 
 
