@@ -1,9 +1,15 @@
 # Fliesenleger
 ![](https://github.com/Utschie/Fliesenleger/blob/master/rosgraph.png)
-## Install the environment and dependencies
-1. Install ros2 Rolling <https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debians.html>
+## Install the environment and dependencies on Ubuntu 22.04
+1. Install ROS 2 Rolling <https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debians.html>
 
 2. Install Gazebo 11 <https://classic.gazebosim.org/tutorials?tut=install_ubuntu#Defaultinstallation:one-liner>
+
+3. Install nvidia driver  
+```
+sudo ubuntu-drivers autoinstall
+reboot
+```
 
 3. Install gazebo_ros,ros-rolling-joy,Numpy,Opencv
 
@@ -13,13 +19,12 @@ sudo apt-get install ros-rolling-joy
 pip install numpy
 sudo apt install libopencv-dev python3-opencv
 ```
-
+## Build the project and play.
 4. Clone this repository to local
 ```
 git clone https://github.com/Utschie/Fliesenleger.git
 ```
 
-## Build the project and play.
 5. Change directory to the local repository
 ```
 cd Fliesenleger
