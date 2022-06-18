@@ -1,6 +1,7 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
   <model name='move_wheel_box'>
+  <shadows>false</shadows>
     <link name='link_1'>
       <inertial>
         <mass>50</mass>

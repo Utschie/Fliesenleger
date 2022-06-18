@@ -6,7 +6,7 @@ from std_msgs.msg import String
 from sensor_msgs.msg import Joy
 from .ImgSubscriber import ImgSubscriber
 from .Recognizer import Recognizer_small,Recognizer_middle,Recognizer_big
-import time
+#import time
 from gazebo_msgs.srv import SpawnEntity
 from ament_index_python.packages import get_package_share_directory
 from sensor_msgs.msg import Image
@@ -39,7 +39,7 @@ class Brain(Node):
         #self.img_publisher_right= self.create_publisher(Image,'/camera/right',10)
         self.img_subscription = ImgSubscriber()
         self.img_subscription
-        self.recognizer = Recognizer_big(self.world)
+        self.recognizer = Recognizer_small(self.world)
         self.spawn_node = rclpy.create_node("entity_spawner")
         self.spawn_node.cli = self.spawn_node.create_client(SpawnEntity, "/spawn_entity")
         self.commu_subscriber = self.create_subscription(Twist,'/cmd_vel',self.commu_callback,10)
@@ -49,7 +49,7 @@ class Brain(Node):
         self.if_static = True
         self.if_move = True
         self.box_coordinate = None
-
+    
     def img_callback_left(self,msg):
         #if self.state['Mode'] == 'Move Mode':
             #self.img_publisher_left.publish(msg)
@@ -61,7 +61,7 @@ class Brain(Node):
             #self.img_publisher_right.publish(msg)
         self.right_img = np.array(msg.data)
         self.right_img = self.right_img.reshape((3648,5472,3))
-
+    
     def commu_callback(self,msg):
         if self.if_move == True:
             self.commu_publisher.publish(msg)

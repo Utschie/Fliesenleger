@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 <sdf version='1.7'>
   <world name="world_2">
+  <shadows>false</shadows>
     <include>
       <uri>model://sun</uri>
     </include>

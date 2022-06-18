@@ -1,6 +1,7 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
     <model name='zed_mini'>
+    <shadows>false</shadows>
       <link name='camera_link'>
         <inertial>
           <mass>0.1</mass>
@@ -29,8 +30,8 @@
             <pose relative_to='camera1'>0 0.0315 0 0 -0 0</pose>
             <horizontal_fov>1.373574</horizontal_fov>
             <image>
-              <width>960</width>
-              <height>640</height>
+              <width>5472</width>
+              <height>3648</height>
               <format>R8G8B8</format>
             </image>
             <clip>

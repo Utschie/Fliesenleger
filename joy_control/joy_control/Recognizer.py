@@ -1,6 +1,5 @@
 import numpy as np
 from PIL import Image as im
-import matplotlib.pyplot as plt
 import cv2
 from ament_index_python.packages import get_package_share_directory
 
@@ -22,9 +21,6 @@ class Recognizer_small(object):
             cnt = cv2.approxPolyDP(cnt, 0.02*cnt_len, True) #Polygon approximation
             #if the approximated polygon has 4 sides,and area>1000 and a convex polygon
             if len(cnt) == 4 and cv2.contourArea(cnt) > self.tile_area[0] and cv2.contourArea(cnt)<self.tile_area[1] and cv2.isContourConvex(cnt):
-                M = cv2.moments(cnt) #compute the moment of the contour
-                cx = int(M['m10']/M['m00'])
-                cy = int(M['m01']/M['m00'])#compute the center
                 cnt = cnt.reshape(-1, 2)
                 max_cos = np.max([self.angle_cos( cnt[i], cnt[(i+1) % 4], cnt[(i+2) % 4] ) for i in range(4)])
                 if max_cos < 0.1:# if nearly right angle
@@ -46,13 +42,11 @@ class Recognizer_small(object):
         M = np.load(get_package_share_directory('joy_control')+'/M_9037*7228.npy')#load the matrix for perspective transfomation
         img = cv2.warpPerspective(img,M,(9037,7228))#project the image to a big picture, each pixel is 1mm 
         gray = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)#Grayscale
-        ret, binary = cv2.threshold(gray,205,255,cv2.THRESH_BINARY)#Binarization，for this task when the thresh set between 200-210,with the best effect
-        contours, hierarchy = cv2.findContours(binary,cv2.RETR_TREE,cv2.CHAIN_APPROX_NONE)
+        _, binary = cv2.threshold(gray,205,255,cv2.THRESH_BINARY)#Binarization，for this task when the thresh set between 200-210,with the best effect
+        contours,_ = cv2.findContours(binary,cv2.RETR_TREE,cv2.CHAIN_APPROX_NONE)
         contours = self.find_squares(contours)
         #compute the angle of the conotours with the horizon
         angles = []
-        centers = []
-        w_h = []
         for i in contours:
             rect = cv2.minAreaRect(i)#fit a rectangle with the minimal area,in ideal,this rectangle should be the contour self
             angles.append(np.minimum(np.absolute(rect[2]),np.absolute(90+rect[2])))
@@ -117,9 +111,6 @@ class Recognizer_middle(object):
             cnt = cv2.approxPolyDP(cnt, 0.02*cnt_len, True) #Polygon approximation
             #if the approximated polygon has 4 sides,and area>1000 and a convex polygon
             if len(cnt) == 4 and cv2.contourArea(cnt) > self.tile_area[0] and cv2.contourArea(cnt)<self.tile_area[1] and cv2.isContourConvex(cnt):
-                M = cv2.moments(cnt) #compute the moment of the contour
-                cx = int(M['m10']/M['m00'])
-                cy = int(M['m01']/M['m00'])#compute the center
                 cnt = cnt.reshape(-1, 2)
                 max_cos = np.max([self.angle_cos( cnt[i], cnt[(i+1) % 4], cnt[(i+2) % 4] ) for i in range(4)])
                 if max_cos < 0.1:# if nearly right angle
@@ -140,13 +131,11 @@ class Recognizer_middle(object):
         M = np.load(get_package_share_directory('joy_control')+'/M_15061*12046.npy')#load the matrix for perspective transfomation
         img = cv2.warpPerspective(img,M,(15061,12046))#project the image to a big picture, each pixel is 1mm 
         gray = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)#Grayscale
-        ret, binary = cv2.threshold(gray,205,255,cv2.THRESH_BINARY)#Binarization，for this task when the thresh set between 200-210,with the best effect
-        contours, hierarchy = cv2.findContours(binary,cv2.RETR_TREE,cv2.CHAIN_APPROX_NONE)
+        _, binary = cv2.threshold(gray,205,255,cv2.THRESH_BINARY)#Binarization，for this task when the thresh set between 200-210,with the best effect
+        contours, _ = cv2.findContours(binary,cv2.RETR_TREE,cv2.CHAIN_APPROX_NONE)
         contours = self.find_squares(contours)
         #compute the angle of the conotours with the horizon
         angles = []
-        centers = []
-        w_h = []
         for i in contours:
             rect = cv2.minAreaRect(i)#fit a rectangle with the minimal area,in ideal,this rectangle should be the contour self
             angles.append(np.minimum(np.absolute(rect[2]),np.absolute(90+rect[2])))
@@ -210,9 +199,9 @@ class Recognizer_big(object):
             cnt = cv2.approxPolyDP(cnt, 0.02*cnt_len, True) #Polygon approximation
             #if the approximated polygon has 4 sides,and area>1000 and a convex polygon
             if len(cnt) == 4 and cv2.contourArea(cnt) > self.tile_area[0] and cv2.contourArea(cnt)<self.tile_area[1] and cv2.isContourConvex(cnt):
-                M = cv2.moments(cnt) #compute the moment of the contour
-                cx = int(M['m10']/M['m00'])
-                cy = int(M['m01']/M['m00'])#compute the center
+                #M = cv2.moments(cnt) #compute the moment of the contour
+                #cx = int(M['m10']/M['m00'])
+                #cy = int(M['m01']/M['m00'])#compute the center
                 cnt = cnt.reshape(-1, 2)
                 max_cos = np.max([self.angle_cos( cnt[i], cnt[(i+1) % 4], cnt[(i+2) % 4] ) for i in range(4)])
                 if max_cos < 0.1:# if nearly right angle
@@ -234,13 +223,13 @@ class Recognizer_big(object):
         M = np.load(get_package_share_directory('joy_control')+'/M_30121*24091.npy')#load the matrix for perspective transfomation
         img = cv2.warpPerspective(img,M,(30121,24091))#project the image to a big picture, each pixel is 1mm 
         gray = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)#Grayscale
-        ret, binary = cv2.threshold(gray,205,255,cv2.THRESH_BINARY)#Binarization，for this task when the thresh set between 200-210,with the best effect
-        contours, hierarchy = cv2.findContours(binary,cv2.RETR_TREE,cv2.CHAIN_APPROX_NONE)
+        _, binary = cv2.threshold(gray,205,255,cv2.THRESH_BINARY)#Binarization，for this task when the thresh set between 200-210,with the best effect
+        contours,_ = cv2.findContours(binary,cv2.RETR_TREE,cv2.CHAIN_APPROX_NONE)
         contours = self.find_squares(contours)
         #compute the angle of the conotours with the horizon
         angles = []
-        centers = []
-        w_h = []
+        #centers = []
+        #w_h = []
         for i in contours:
             rect = cv2.minAreaRect(i)#fit a rectangle with the minimal area,in ideal,this rectangle should be the contour self
             angles.append(np.minimum(np.absolute(rect[2]),np.absolute(90+rect[2])))
